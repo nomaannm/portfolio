@@ -35,9 +35,36 @@
                 <li><a href="#contact" onClick="toggleMenu()">Contact</a></li>
             </div>
         </div>
-
-
     </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/IMG_20240919_063458.png" alt="Noman's Picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Noman Mumtaz</h1>
+            <p class="section__text__p2">Software Engineer</p>
+            <div class="btn-container">
+                <button class="btn-btn-color-2"
+                        onClick="window.open('./assets/resume-example.pdf')">
+                        Download CV
+                </button>
+                <button class="btn-btn-color-1"
+                        onClick="location.href='./#contact'">
+                        Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIN Profile"
+                     class="icon" onClick="location.href='https://www.linkedin.com/in/nomaannm/'"/>
+                <img src="./assets/github.png" alt="My Github Profile"
+                     class="icon" onClick="location.href='https://github.com/nomaannm'"/>
+
+
+
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 
 </body>
