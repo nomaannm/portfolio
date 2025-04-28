@@ -33,12 +33,8 @@ nav, .nav-links {
 
 .letter-n {
     display: inline-block;
-    transition: transform 0.3s ease;
 }
 
-.letter-n:hover {
-    transform: scale(1.5);
-}
 
 nav {
     justify-content: space-around;
@@ -212,6 +208,30 @@ section {
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+}
+
+.letter-n-2 {
+    display: inline-block;
+}
+
+.rem-name {
+    background: linear-gradient(90deg, #FF7E5F, #FEB47B, #FFFB7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.o-to-balloon {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease,font-size 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    color: #FF5722;
+    border-radius: 50%;
+}
+
+.o-to-balloon.emoji {
+    font-size: 2.5rem; /* Adjust size of the emoji */
+    transition: transform 0.5s ease, opacity 0.5s ease, font-size 0.5s ease; /* More smooth transition */
+    opacity: 1;
 }
 
 /* ICONS */
