@@ -27,5 +27,17 @@ document.addEventListener("DOMContentLoaded", function () {
   balloon.addEventListener("mouseenter", () => {
     balloon.innerHTML = "🎈";
     balloon.classList.add("emoji");
+
+    gsap.to(".o-to-balloon", {
+      y: -500,
+      rotation: 360,
+      scale: 1.5,
+      opacity: 0,
+      duration: 2,
+      ease: "bounce.out",
+      onComplete: () => {
+        balloon.style.display = "none";
+      },
+    });
   });
 });
