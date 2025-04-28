@@ -435,9 +435,9 @@ article .icon {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: 0.1rem solid rgb(163, 163, 163);
-    background: (250, 250, 250);
-    margin: auto;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
     padding: 0.5rem;
 }
 
@@ -458,6 +458,19 @@ article .icon {
     height: 2rem;
 }
 
+.email-icon {
+    height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
 .
 
 
